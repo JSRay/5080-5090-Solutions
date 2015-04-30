@@ -1,0 +1,11 @@
+
+
+{\bf 10.08}\\
+Consider a random sample of size n from a two-parameter exponential distribution, $X_i~EXP(1,\eta)$. Show that $S=X_{1:n}$ is sufficient for $\eta$ by using the factorization criterion.
+\\$f(\underline{x};\theta)=g(s,\theta)h(\underline{x})\\
+=e^{-\Sigma(x_i-n)}1[x>\eta]$\\
+$=e^{-\Sigma x_i}e^{n\eta}1[X_{1:n}>\eta]$\\
+Where
+$g(s;\theta)=e^{n\eta}1[X_{1:n}>\eta]$ \\and 
+$h(\underline{x})=e^{-\Sigma x_i}$\\
+Therefore, $S=X_{1:n}$ is sufficient.\\
